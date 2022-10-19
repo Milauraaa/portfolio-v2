@@ -109,7 +109,7 @@ h3 {
   font-size: 30px;
   margin: 0px;
 }
-p {
+p, .main-section-about li {
   font-size: 16px;
 }
 .language-block {
@@ -136,6 +136,9 @@ p {
 .main-section-about .main-section-right picture img {
   width: 400px;
   margin: 20px;
+}
+.main-section-about ul {
+  padding-left: 12px;
 }
 .scrolling-skills {
   overflow: hidden;
@@ -222,14 +225,14 @@ footer .footer-section-contact a:hover {
   font-size: 54px;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1420px) {
   header nav {
     padding-left: 100px;
   }
   main {
     margin: 0px 100px;
   }
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
   .main-section-mobile {
     display: block;
     margin: 10px;
@@ -251,7 +254,7 @@ footer .footer-section-contact a:hover {
   .main-projects .main-projects-project .photoProject {
   width: 400px; }
 }
-@media (max-width: 791px) {
+@media (max-width: 850px) {
   header nav {
     height: 40px;
   }
@@ -312,7 +315,7 @@ footer .footer-section-contact a:hover {
   .main-projects .main-projects-project .typesOfTools {
     font-size: 20px;
   }
-  p {
+  p, .main-section-about ul li {
     font-size: 12px;
   }
   footer {
